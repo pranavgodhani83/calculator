@@ -1,0 +1,38 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.App {
+  display: flex;
+  justify-content: center;
+}
+
+body{
+  background-color: aquamarine;
+}
+
+.calc{
+  background-color: black;
+  margin-top: 100px;
+  height: auto;
+  width: 410px;
+  border: 4px solid rgb(255, 0, 140);
+  padding: 5px;
+}
+.dis{
+  width: 100%;
+  height: 60px;
+  text-align: right;
+  font-size: 25px;
+}
+.calc-main{
+  border: 3px solid yellow;
+  padding: 5px;
+}
+.btn{
+  height: 91px;
+  width: 90px;
+  margin: 2px;
+  font-size: 20px;
+}
